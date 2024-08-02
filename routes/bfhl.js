@@ -1,4 +1,3 @@
-// routes/bfhl.js
 const express = require('express');
 const router = express.Router();
 
@@ -28,6 +27,5 @@ router.get('/bfhl', (req, res) => {
 
 module.exports = router;
 
-// Include in server.js
 const bfhlRoutes = require('./routes/bfhl');
 app.use('/bfhl', bfhlRoutes);
